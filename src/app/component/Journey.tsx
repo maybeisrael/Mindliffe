@@ -3,19 +3,19 @@ import Image from 'next/image';
 
 export default function Journey() {
   return (
-    <div className="h-full flex flex-col items-center justify-center py-8 bage text-white">
-      <div className="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-8">
+    <div className="flex flex-col items-center justify-center px-8 py-3 text-white bg-[url('/Rectangle.png')] bg-cover bg-center h-[1000px] md:h-[800px]">
+      <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8 bg-opacity-50 p- rounded-lg">
 
         {/* Main Content */}
-        <div className="max-w-[596px] md:max-w-none md:w-[596px]">
-          <div className="font-dm-sans text-[60px] md:text-4xl font-bold leading-[80px] md:leading-[64px] text-left mb-8">
+        <div className=" max-w-full h-[550px] md:h-[600px] md:w-[800px] md:mt-6">
+          <div className="font-dm-sans text-4xl md:text-[60px] font-bold leading-[64px] md:leading-[80px] text-left mb-8">
             The Journey of Healing Begins Here
           </div>
+
           <div className="mb-8">
             Obi Esiobu is a psychologist with over a decade of experience coordinating care concerning health and
             wellness, including providing support to individuals enabling the achievement of their goals towards
-            improving their quality of life. Commencing his career in Nigeria, within a
-            faith-based psychotherapeutic setting,
+            improving their quality of life. Commencing his career in Nigeria, within a faith-based psychotherapeutic setting,
             his expertise has since expanded to an international clientele, guiding individuals towards full recovery
             from substance abuse, family disorientation, workplace anxiety, and other mental health concerns.
             Obi&apos;s dedication to his patients extends beyond technical expertise. He is known for his warm and
@@ -30,10 +30,10 @@ export default function Journey() {
         </div>
 
         {/* Badge Section */}
-        <div className="flex items-center justify-center">
-          <div className="h-[445px] md:h-[auto] w-[369px] md:w-[280px] lg:w-[369px] flex flex-col items-center justify-center bg-white rounded-md p-5">
+        <div className="flex  px-4 mt-8 md:mt-0">
+          <div className="h-[350px] md:h-auto w-auto lg:w-[369px] flex flex-col items-center justify-center bg-white rounded-md p-5">
             <div className="flex flex-col items-center">
-              <div className="flex mt-3 mb-4">
+              <div className="flex h-[260px] md:h-[360px] mt-5">
                 <Image
                   src="/journey.png"
                   alt="badge"
@@ -68,6 +68,7 @@ export default function Journey() {
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );

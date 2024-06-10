@@ -8,9 +8,9 @@
   background-size: cover;
   background-position: center;
 }
-.bage {
-  @apply relative w-full h-[758px];
+/* .bage {
+  @apply relative w-full h-[900px];
   background-image: url('/Rectangle.png');
   background-size: cover;
   background-position: center;
-}
+} */

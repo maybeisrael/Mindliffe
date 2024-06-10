@@ -7,6 +7,7 @@ import Faq from "./component/Faq";
 import Footer from "./component/Footer";
 
 
+
 export default function Home() {
   return (
     <main >
